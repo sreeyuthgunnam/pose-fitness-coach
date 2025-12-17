@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useRef, useState, useCallback } from 'react';
-import { initPoseDetector, detectPose, drawPose, Pose } from '@/lib/poseDetector';
-import { EXERCISES, ExerciseTracker, ExerciseResult, ExerciseConfig, Keypoint } from '@/lib/exercises';
+import { initPoseDetector, detectPose, drawPose, Pose } from '../lib/poseDetector';
+import { EXERCISES, ExerciseTracker, ExerciseResult, ExerciseConfig, Keypoint } from '../lib/exercises';
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
