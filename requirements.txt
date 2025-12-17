@@ -1,0 +1,19 @@
+# Pose-Based Fitness Coach - Dependencies
+# Core dependencies
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Voice feedback
+pyttsx3>=2.90
+
+# Streamlit dashboard (optional)
+streamlit>=1.28.0
+streamlit-webrtc>=0.45.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Utilities
+python-dotenv>=1.0.0
